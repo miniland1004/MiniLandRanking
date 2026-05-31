@@ -1,0 +1,50 @@
+{
+  "meta": {
+    "serverName": "MiniLand",
+    "updatedAt": "2026-05-31 15:00 KST",
+    "worldId": 0
+  },
+  "viewer": {
+    "characterId": 1001,
+    "name": "PenguinHero",
+    "job": "나이트로드",
+    "level": 200,
+    "guild": "MiniLand",
+    "rank": 12,
+    "jobRank": 3,
+    "avatarUrl": "https://your-domain.example/avatar/1001.png"
+  },
+  "jobs": [
+    "전체",
+    "나이트로드",
+    "히어로",
+    "비숍",
+    "보우마스터"
+  ],
+  "rankings": {
+    "overall": [
+      {
+        "characterId": 2001,
+        "rank": 1,
+        "name": "IceEmperor",
+        "job": "히어로",
+        "level": 200,
+        "guild": "Aurora",
+        "avatarUrl": "https://your-domain.example/avatar/2001.png"
+      }
+    ],
+    "byJob": {
+      "나이트로드": [
+        {
+          "characterId": 1001,
+          "rank": 3,
+          "name": "PenguinHero",
+          "job": "나이트로드",
+          "level": 200,
+          "guild": "MiniLand",
+          "avatarUrl": "https://your-domain.example/avatar/1001.png"
+        }
+      ]
+    }
+  }
+}

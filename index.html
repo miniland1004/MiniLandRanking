@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=9">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>MiniLand Ranking</title>
+  <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+  <div class="window" aria-label="MiniLand Ranking">
+    <div class="title-bar">
+      <div class="title-copy">
+        <span class="title-eyebrow">MY RANKING</span>
+        <strong class="title-main">MiniLand Ranking</strong>
+      </div>
+      <button class="title-close" type="button" aria-label="close" disabled>X</button>
+    </div>
+
+    <div class="toolbar">
+      <div class="view-switch" role="tablist" aria-label="ranking views">
+        <button class="view-tab is-active" type="button" data-view="overall" role="tab" aria-selected="true">전체랭킹</button>
+        <button class="view-tab" type="button" data-view="job" role="tab" aria-selected="false">직업랭킹</button>
+      </div>
+      <div class="meta-strip">
+        <span id="serverLabel" class="meta-chip">MiniLand</span>
+        <span id="viewerLabel" class="meta-chip meta-chip--accent">CID 0</span>
+      </div>
+    </div>
+
+    <div class="hero-card">
+      <div class="avatar-shell">
+        <img id="heroAvatar" class="hero-avatar" src="./assets/avatar-placeholder.png" alt="character avatar">
+      </div>
+      <div class="hero-copy">
+        <p id="heroRankLabel" class="hero-rank">RANK 0</p>
+        <h1 id="heroName" class="hero-name">로딩 중</h1>
+        <p id="heroJob" class="hero-job">직업 정보 없음</p>
+        <dl class="hero-stats">
+          <div class="hero-stat">
+            <dt>Level</dt>
+            <dd id="heroLevel">0</dd>
+          </div>
+          <div class="hero-stat">
+            <dt>Guild</dt>
+            <dd id="heroGuild">-</dd>
+          </div>
+          <div class="hero-stat">
+            <dt>World</dt>
+            <dd id="heroWorld">0</dd>
+          </div>
+          <div class="hero-stat">
+            <dt>Job Rank</dt>
+            <dd id="heroJobRank">-</dd>
+          </div>
+        </dl>
+      </div>
+    </div>
+
+    <div class="job-strip">
+      <div id="jobFilters" class="job-filters" aria-label="job filters"></div>
+    </div>
+
+    <div class="panel">
+      <div class="panel-head">
+        <strong id="panelTitle">전체 랭킹</strong>
+        <span id="updatedAt" class="panel-updated">demo</span>
+      </div>
+      <div class="ranking-table">
+        <div class="table-head">
+          <span class="table-col table-col-rank">#</span>
+          <span class="table-col table-col-name">캐릭터</span>
+          <span class="table-col table-col-job">직업</span>
+          <span class="table-col table-col-level">Lv</span>
+        </div>
+        <div id="rankingList" class="table-body"></div>
+      </div>
+    </div>
+
+    <div class="status-bar">
+      <span id="statusText">정적 데모 데이터를 표시 중입니다.</span>
+    </div>
+  </div>
+
+  <script src="./app.js" defer></script>
+</body>
+</html>
