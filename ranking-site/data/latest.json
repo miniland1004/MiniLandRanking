@@ -1,0 +1,209 @@
+{
+  "meta": {
+    "serverName": "MiniLand",
+    "updatedAt": "2026-05-31 15:10 KST",
+    "worldId": 0
+  },
+  "viewer": {
+    "characterId": 1001,
+    "name": "PenguinHero",
+    "job": "나이트로드",
+    "level": 200,
+    "guild": "MiniLand",
+    "rank": 12,
+    "jobRank": 3,
+    "avatarUrl": "./assets/demo-avatar-nightlord.png"
+  },
+  "jobs": [
+    "전체",
+    "나이트로드",
+    "히어로",
+    "비숍",
+    "보우마스터"
+  ],
+  "rankings": {
+    "overall": [
+      {
+        "characterId": 2001,
+        "rank": 1,
+        "name": "IceEmperor",
+        "job": "히어로",
+        "level": 200,
+        "guild": "Aurora",
+        "avatarUrl": "./assets/demo-avatar-hero.png"
+      },
+      {
+        "characterId": 2002,
+        "rank": 2,
+        "name": "MintBishop",
+        "job": "비숍",
+        "level": 200,
+        "guild": "Misty",
+        "avatarUrl": "./assets/demo-avatar-bishop.png"
+      },
+      {
+        "characterId": 2003,
+        "rank": 3,
+        "name": "SkyArrow",
+        "job": "보우마스터",
+        "level": 200,
+        "guild": "Falcon",
+        "avatarUrl": "./assets/demo-avatar-bowmaster.png"
+      },
+      {
+        "characterId": 1001,
+        "rank": 12,
+        "name": "PenguinHero",
+        "job": "나이트로드",
+        "level": 200,
+        "guild": "MiniLand",
+        "avatarUrl": "./assets/demo-avatar-nightlord.png"
+      },
+      {
+        "characterId": 2010,
+        "rank": 13,
+        "name": "CobaltSin",
+        "job": "나이트로드",
+        "level": 199,
+        "guild": "Nova",
+        "avatarUrl": "./assets/demo-avatar-nightlord.png"
+      },
+      {
+        "characterId": 2011,
+        "rank": 14,
+        "name": "MapleVolt",
+        "job": "히어로",
+        "level": 198,
+        "guild": "Titan",
+        "avatarUrl": "./assets/demo-avatar-hero.png"
+      },
+      {
+        "characterId": 2012,
+        "rank": 15,
+        "name": "LunarHeal",
+        "job": "비숍",
+        "level": 198,
+        "guild": "Lumen",
+        "avatarUrl": "./assets/demo-avatar-bishop.png"
+      },
+      {
+        "characterId": 2013,
+        "rank": 16,
+        "name": "PineShot",
+        "job": "보우마스터",
+        "level": 197,
+        "guild": "Forest",
+        "avatarUrl": "./assets/demo-avatar-bowmaster.png"
+      }
+    ],
+    "byJob": {
+      "나이트로드": [
+        {
+          "characterId": 2021,
+          "rank": 1,
+          "name": "ShadowMint",
+          "job": "나이트로드",
+          "level": 200,
+          "guild": "Noir",
+          "avatarUrl": "./assets/demo-avatar-nightlord.png"
+        },
+        {
+          "characterId": 2022,
+          "rank": 2,
+          "name": "CrescentSin",
+          "job": "나이트로드",
+          "level": 200,
+          "guild": "Eclipse",
+          "avatarUrl": "./assets/demo-avatar-nightlord.png"
+        },
+        {
+          "characterId": 1001,
+          "rank": 3,
+          "name": "PenguinHero",
+          "job": "나이트로드",
+          "level": 200,
+          "guild": "MiniLand",
+          "avatarUrl": "./assets/demo-avatar-nightlord.png"
+        },
+        {
+          "characterId": 2024,
+          "rank": 4,
+          "name": "DustBlade",
+          "job": "나이트로드",
+          "level": 199,
+          "guild": "Quartz",
+          "avatarUrl": "./assets/demo-avatar-nightlord.png"
+        }
+      ],
+      "히어로": [
+        {
+          "characterId": 2101,
+          "rank": 1,
+          "name": "IceEmperor",
+          "job": "히어로",
+          "level": 200,
+          "guild": "Aurora",
+          "avatarUrl": "./assets/demo-avatar-hero.png"
+        },
+        {
+          "characterId": 2102,
+          "rank": 2,
+          "name": "MapleVolt",
+          "job": "히어로",
+          "level": 198,
+          "guild": "Titan",
+          "avatarUrl": "./assets/demo-avatar-hero.png"
+        },
+        {
+          "characterId": 2103,
+          "rank": 3,
+          "name": "FlareSword",
+          "job": "히어로",
+          "level": 197,
+          "guild": "Forge",
+          "avatarUrl": "./assets/demo-avatar-hero.png"
+        }
+      ],
+      "비숍": [
+        {
+          "characterId": 2201,
+          "rank": 1,
+          "name": "MintBishop",
+          "job": "비숍",
+          "level": 200,
+          "guild": "Misty",
+          "avatarUrl": "./assets/demo-avatar-bishop.png"
+        },
+        {
+          "characterId": 2202,
+          "rank": 2,
+          "name": "LunarHeal",
+          "job": "비숍",
+          "level": 198,
+          "guild": "Lumen",
+          "avatarUrl": "./assets/demo-avatar-bishop.png"
+        }
+      ],
+      "보우마스터": [
+        {
+          "characterId": 2301,
+          "rank": 1,
+          "name": "SkyArrow",
+          "job": "보우마스터",
+          "level": 200,
+          "guild": "Falcon",
+          "avatarUrl": "./assets/demo-avatar-bowmaster.png"
+        },
+        {
+          "characterId": 2302,
+          "rank": 2,
+          "name": "PineShot",
+          "job": "보우마스터",
+          "level": 197,
+          "guild": "Forest",
+          "avatarUrl": "./assets/demo-avatar-bowmaster.png"
+        }
+      ]
+    }
+  }
+}
